@@ -1,0 +1,93 @@
+{
+  "theme_color": "#4051B8",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Gamezop",
+  "short_name": "GZ",
+  "description": "Online web based game platform",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/desktop.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen of Gamezop Desktop App"
+    },
+    {
+      "src": "/game-library.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Game Library of Gamezop Desktop App"
+    },
+    {
+      "src": "/mobile.png",
+      "sizes": "1080x2400",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Homescreen of Gamezop Mobile App"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Top player rated",
+      "url": "/top-rated-games",
+      "description": "List of top rated games",
+      "icons": [
+        {
+          "src": "/icon-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "All Games",
+      "url": "/games",
+      "description": "List of all games",
+      "icons": [
+        {
+          "src": "/icon-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Most played",
+      "url": "/most/played/games",
+      "description": "List of Popular games",
+      "icons": [
+        {
+          "src": "/icon-shortcut.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
